@@ -4,8 +4,6 @@
 
 game <- function() {
   computer <- floor(runif(1, min=0, max=101))
- # computer <- 2
-  #print(computer)
   me <- readline(prompt="Your number: ")
   
   if (computer== me) {
